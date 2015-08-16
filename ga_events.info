@@ -1,0 +1,6 @@
+name = Google Analytics Events
+description = Add and integrate various events with Google Analytics
+package = custom
+core = 7.x
+
+dependencies[] = google_analytics
