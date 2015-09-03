@@ -1,4 +1,4 @@
-name = Google Analytics Events
+name = Google Analytics Advanced
 description = Add and integrate various events with Google Analytics
 package = custom
 core = 7.x

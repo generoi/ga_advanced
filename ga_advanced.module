@@ -3,8 +3,8 @@
 /**
  * Implements hook_library().
  */
-function ga_events_library() {
-  $module_path = drupal_get_path('module', 'ga_events');
+function ga_advanced_library() {
+  $module_path = drupal_get_path('module', 'ga_advanced');
   $library_path = libraries_get_path('jquery-scrolldepth');
 
   $items['jquery.scrolldepth'] = array(
@@ -14,11 +14,11 @@ function ga_events_library() {
       $library_path . '/jquery.scrolldepth.min.js',
     ),
   );
-  $items['ga_events'] = array(
+  $items['ga_advanced'] = array(
     'title' => t('GA events'),
     'version' => '1.0',
     'js' => array(
-      $module_path . '/js/ga_events.js',
+      $module_path . '/js/ga_advanced.js',
     ),
   );
 

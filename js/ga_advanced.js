@@ -1,7 +1,7 @@
 (function ($) {
   'use strict';
 
-  Drupal.behaviors.gaEvents = {
+  Drupal.behaviors.gaAdvanced = {
     attach: function (context) {
       if (this.processed) return;
       this.processed = true;
